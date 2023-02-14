@@ -1,5 +1,12 @@
+import ExpenseForm from "~/components/expenses/ExpenseForm";
+
 const ExpensesDetailPage = () => {
-  return <div>ExpensesDetailPage page</div>;
+  return (
+    <>
+      <h1>The Id route</h1>
+      <ExpenseForm />;
+    </>
+  );
 };
 
 export default ExpensesDetailPage;

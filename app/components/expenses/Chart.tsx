@@ -1,11 +1,5 @@
+import type { Expense } from "~/routes/expenses";
 import ChartBar from "./ChartBar";
-
-export interface Expense {
-  id: string;
-  title: string;
-  amount: number;
-  date: string;
-}
 
 interface ChartProps {
   expenses: Expense[];

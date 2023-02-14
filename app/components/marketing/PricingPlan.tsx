@@ -1,9 +1,11 @@
-// TODO: I just guessed here.
+import React from "react";
+import type { IconType } from "react-icons/lib";
 interface PricingPlanProps {
   title: string;
-  price: number;
-  perks: number[];
-  icon: string;
+  price: string;
+  perks: string[];
+  // icon: typeof React.Component;
+  icon: IconType;
 }
 
 function PricingPlan({ title, price, perks, icon }: PricingPlanProps) {
