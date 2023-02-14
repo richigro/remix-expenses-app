@@ -1,4 +1,10 @@
-function ExpenseListItem({ title, amount }) {
+interface ExpenseListItemProps {
+  title: string;
+  amount: number;
+  id: string;
+}
+
+function ExpenseListItem({ title, amount }: ExpenseListItemProps) {
   function deleteExpenseItemHandler() {
     // tbd
   }
