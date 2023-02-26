@@ -1,3 +1,8 @@
+## Requirements
+
+you need add an .env file to connect prisma to a mongodb database.
+More info on prisma: https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/mongodb-typescript-mongodb
+
 ## Supported Route Types
 
 ### All file structure is relative to the routes folder, and URI to the domain name.
