@@ -6,13 +6,10 @@ const AddExpensesPage = () => {
   const navigate = useNavigate();
 
   const handleClose = () => {
-    console.log("yoloooo");
-
     navigate("..");
   };
   return (
     <>
-      <h1>add route</h1>
       <Modal onClose={handleClose}>
         <ExpenseForm />
       </Modal>

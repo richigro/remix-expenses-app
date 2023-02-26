@@ -1,6 +1,6 @@
 import ExpenseStatistics from "~/components/expenses/ExpenseStatistics";
 import Chart from "~/components/expenses/Chart";
-import { DUMMY_EXPENSES } from "~/routes/expenses";
+import { DUMMY_EXPENSES } from "~/routes/__app/expenses";
 
 const ExpensesAnalysisPage = () => {
   return (

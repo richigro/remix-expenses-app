@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import type { Expense } from "~/routes/expenses";
+import type { Expense } from "~/routes/__app/expenses";
 
 function calculateSummaryStatistics(expenses: Expense[]) {
   const amounts = expenses.map((expense) => +expense.amount);

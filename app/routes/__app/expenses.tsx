@@ -1,6 +1,4 @@
 import { Outlet } from "@remix-run/react";
-import type { LinksFunction } from "@remix-run/node";
-import styles from "~/styles/expenses.css";
 import ExpensesList from "~/components/expenses/ExpensesList";
 
 export const DUMMY_EXPENSES = [
@@ -17,8 +15,6 @@ export const DUMMY_EXPENSES = [
     date: new Date().toISOString(),
   },
 ];
-
-export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
 
 const ExpensesLayout = () => {
   return (
