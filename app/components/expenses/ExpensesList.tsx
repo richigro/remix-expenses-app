@@ -1,5 +1,5 @@
 import ExpenseListItem from "./ExpenseListItem";
-import type { Expense } from "./Chart";
+import type { Expense } from "./ExpenseListItem";
 
 interface ExpensesListProps {
   expenses: Expense[];
@@ -14,6 +14,7 @@ function ExpensesList({ expenses }: ExpensesListProps) {
             id={expense.id}
             title={expense.title}
             amount={expense.amount}
+            date={expense.date}
           />
         </li>
       ))}

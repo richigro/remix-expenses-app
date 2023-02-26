@@ -3,14 +3,7 @@ import type { LinksFunction } from "@remix-run/node";
 import styles from "~/styles/expenses.css";
 import ExpensesList from "~/components/expenses/ExpensesList";
 
-export interface Expense {
-  id: string;
-  title: string;
-  amount: number;
-  date: string;
-}
-
-export const DUMMY_EXPENSES: Expense[] = [
+export const DUMMY_EXPENSES = [
   {
     id: "e1",
     title: "first expense",

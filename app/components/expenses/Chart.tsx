@@ -1,4 +1,4 @@
-import type { Expense } from "~/routes/expenses";
+import type { Expense } from "~/components/expenses/ExpenseListItem";
 import ChartBar from "./ChartBar";
 
 interface ChartProps {
