@@ -5,9 +5,10 @@ export interface Expense {
   title: string;
   amount: number;
   date: string;
+  dateAdded: string;
 }
 
-function ExpenseListItem({ title, amount, id }: Expense) {
+function ExpenseListItem({ title, amount, id }: Omit<Expense, "dateAdded">) {
   function deleteExpenseItemHandler() {
     // tbd
   }
